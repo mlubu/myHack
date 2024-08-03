@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Class 12</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            font-family: Arial, sans-serif;
+            color: white;
+            padding-top: 20px; /* Add padding to the top */
+        }
+        .class-title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            column-count: 2; /* Display names in two columns */
+            column-gap: 20px; /* Add gap between columns */
+            width: 80%; /* Limit container width */
+            margin: 0 auto; /* Center the container */
+            padding: 20px; /* Add padding */
+            background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white background */
+            border-radius: 10px; /* Add border radius */
+        }
+        .box {
+            width: 100%; /* Each box takes full width of the column */
+            height: 100px;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            margin-bottom: 10px; /* Add margin between boxes */
+            transition: 0.3s;
+        }
+        .box:hover {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+    </style>
+</head>
+<body>
+    <div class="class-title">Class-12</div>
+    <div class="container">
+        <div class="box"><a href="#">NUTRITION</a></div>
+        <div class="box"><a href="#">PHYSICAL HEALTH</a></div>
+        <div class="box"><a href="#">MENTAL AND EMOTIONAL HEALTH</a></div>
+        <div class="box"><a href="#">SOCIAL HEALTH</a></div>
+        <div class="box"><a href="#">SPIRITUAL HEALTH</a></div>
+        <div class="box"><a href="#">ENVIRONMENTAL HEALTH</a></div>
+    </div>
+</body>
+</html>

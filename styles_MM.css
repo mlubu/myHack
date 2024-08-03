@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('images/back-blur.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: relative;
+  position: relative;
+}
+p {
+  margin-bottom: 40px;
+  font-size: 1.4em;
+}
+
+.container {
+  max-width: 800px;
+  margin: 100px auto;
+  width: 150%;
+  padding: 75px;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+}
+
+header {
+  font-weight: bold;
+  background-color: rgba(39, 158, 185, 0.8);
+  color: rgb(247, 244, 240);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li.login {
+  margin-left: auto;
+}
